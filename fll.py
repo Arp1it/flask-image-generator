@@ -12,7 +12,7 @@ def hello_world():
         url = "https://stablediffusionapi.com/api/v3/text2img/"
 
         payload = json.dumps({
-        "key": "8UMVy2SdfVifiqMwIaGM1uFNKdhjZn6jWmfHNj0aYTdfiU7AJiUHUI9FBRoV",
+        "key": "your_api_key",
         "prompt": f"{text}",
         "negative_prompt": None,
         "width": "512",
