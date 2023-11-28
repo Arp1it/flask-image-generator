@@ -12,7 +12,7 @@ def hello_world():
         text = request.form['search']
         url = "https://stablediffusionapi.com/api/v4/dreambooth/"
 
-        client = OpenAI(organization="you_stable_diffusion_org_id_here", api_key="you_stable_diffusion_api_key_here")
+        client = OpenAI(organization="you_openai_org_id_here", api_key="you_openai_api_key_here")
 
         completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
